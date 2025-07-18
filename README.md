@@ -2,9 +2,10 @@
 
 
 #installation of local setup
-
-python -v
+"C:\Users\chips\AppData\Local\Programs\Python\Python313\python.exe"
+python --version
 python -m venv env
 env/Scripts/activate
-python.exe -m pip insall --upgrade pip
-pup install -r requirments.txt
+env/bin/activate
+python.exe -m pip install --upgrade pip
+pip install -r requirements.txt
